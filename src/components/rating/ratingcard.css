@@ -1,0 +1,99 @@
+@charset "UTF-8";
+.rating-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rating-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rating-score .score-number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+.rating-score .out-of {
+  font-size: 12px;
+  color: #777;
+}
+
+.loading-animation {
+  position: relative; /* Added for text positioning */
+}
+.loading-animation .circular {
+  transform-origin: center center;
+}
+.loading-animation .circular .path-bg {
+  stroke-dasharray: 190; /* Circumference of r=30 circle (2 * π * r) */
+  stroke-dashoffset: 0;
+}
+.loading-animation .circular .path {
+  stroke-dasharray: 190;
+  stroke-dashoffset: 0;
+  animation: fill 2s ease-in-out forwards;
+  stroke-linecap: round;
+}
+.loading-animation .circular .score-text {
+  font-size: 16px;
+  font-weight: bold;
+  fill: #333;
+}
+
+@keyframes fill {
+  to {
+    stroke-dashoffset: 11.4; /* Adjust for your score */
+  }
+}
+/* Existing styles */
+.description {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.rating-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.rating-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 10px;
+  max-width: 250px;
+  height: 200px;
+}
+
+.rating-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 70%);
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.loading-animation {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=ratingcard.css.map */

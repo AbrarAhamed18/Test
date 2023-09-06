@@ -1,0 +1,59 @@
+:root{
+    --blackText: hsl(0, 100%, 0%);
+    --orangeGradient: hsla(17, 95%, 50%, 1);
+    --blueGradient: hsla(152, 100%, 50%, 1);
+    --purpleGradient: hsla(280, 95%, 57%, 1);
+    --bodyColor : rgb(240, 240 , 246);
+    --bodyColor:hsl (0, 0,1);
+  
+  }
+.videoTalk{
+    
+        position: absolute;
+        width: 93%;
+        height: 69.2%;
+        margin-left: 3.9%;
+        // padding-right: 4rem;
+        background:  linear-gradient(45.8deg, rgb(175, 104, 254) 9.3%, rgb(101, 223, 255) 75.1%);
+        top:12%;
+        bottom: 0;
+        z-index: 1;
+        mix-blend-mode: hard-light;
+        border-radius: 20px;
+}
+
+.videoFolder{
+    width: 93.7%;
+    height: 10%;
+    margin-top:6.7% ;
+    opacity: 0.6;
+    // margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 6px;
+    padding-right: 6px;
+
+    margin-left: 3.5%;
+    border-radius: 25px;
+    transition: opacity .5s cubic-bezier(.215,.61,.355,1);
+    // background: var(--purpleGradient);
+    // background-blend-mode: hard-light;
+    // background:  linear-gradient(45.8deg, rgb(175, 104, 254) 9.3%, rgb(101, 223, 255) 75.1%);
+    mix-blend-mode: hard-light;
+    
+
+
+}
+
+.vText{
+    position: absolute;
+    top:37%;
+    left:30%;
+    color: white;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    transition: .3s ease-in;
+    
+}

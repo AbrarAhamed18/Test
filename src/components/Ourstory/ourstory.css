@@ -1,0 +1,153 @@
+.container {
+  background-color: rgba 242, 245, 247, 1;
+}
+.container .Otext {
+  margin-left: 24%;
+}
+.container .Otext h1 {
+  background: linear-gradient(var(--gradient-orientation, 90deg), #ff3891, #ffbf04);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 180px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  font-weight: 800;
+}
+.container p {
+  font-size: 17px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.our {
+  font-size: 80px;
+  margin-left: 5%;
+}
+
+.story {
+  font-size: 80px;
+}
+
+.Opic {
+  margin-top: -5%;
+}
+.Opic .Oimg {
+  position: relative;
+  width: 100%;
+  right: 10%;
+}
+
+.Para {
+  position: relative;
+  right: 10%;
+}
+
+.Discover {
+  margin-left: 45%;
+}
+.Discover .Dbtn {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 20rem;
+  color: white;
+  font-weight: bolder;
+  font-size: 1rem;
+  padding: 18px 6rem;
+  transition: all 0.3s;
+  position: relative;
+}
+.Discover .Dbtn:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  border-radius: 10rem;
+  z-index: -2;
+}
+.Discover .Dbtn:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(var(--gradient-orientation, 90deg), #ff3891, #ffbf04);
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.Discover .Dbtn:hover {
+  color: #fff;
+}
+.Discover .Dbtn:hover:before {
+  width: 100%;
+}
+
+.Enter {
+  margin-left: 16%;
+  margin-top: 8%;
+}
+.Enter h1 {
+  font-size: 80px;
+  line-height: 1;
+  padding-bottom: 2rem;
+}
+.Enter p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+.Enter .SeeMoreBtn {
+  margin-left: 33.5%;
+  margin-top: 10%;
+}
+.Enter .SeeMoreBtn .Sbtn {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 20rem;
+  font-weight: bolder;
+  font-size: 1rem;
+  padding: 18px 6rem;
+  transition: all 0.3s;
+  position: relative;
+}
+.Enter .SeeMoreBtn .Sbtn h3 {
+  background: linear-gradient(var(--gradient-orientation, 90deg), #ff3891, #ffbf04);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Enter .SeeMoreBtn .Sbtn:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10rem;
+  z-index: -2;
+}
+.Enter .SeeMoreBtn .Sbtn:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(var(--gradient-orientation, 90deg), #ff3891, #ffbf04);
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.Enter .SeeMoreBtn .Sbtn:hover h3 {
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Enter .SeeMoreBtn .Sbtn:hover:before {
+  width: 100%;
+}/*# sourceMappingURL=ourstory.css.map */

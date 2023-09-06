@@ -1,0 +1,33 @@
+:root {
+  --blackText: hsl(0, 100%, 0%);
+  --orangeGradient: hsla(17, 95%, 50%, 1);
+  --blueGradient: hsla(152, 100%, 50%, 1);
+  --purpleGradient: hsla(280, 95%, 57%, 1);
+  --bodyColor: rgb(240, 240 , 246);
+  --bodyColor:hsl (0, 0,1);
+  --cardBG: rgb(225, 225 , 235);
+  --cardHover: rgb(255,255,255);
+  --textColor: hsl(240, 4% , 36%);
+  --SecondaryColor: hsl(187, 85% , 43%);
+  --blackColor: hsl(201, 33% , 16%);
+  --greyText: rgb(190, 190 , 190);
+  --whiteColor: hsl(0, 0% , 100%);
+}
+
+.textc {
+  margin-left: 20%;
+  margin-top: 5%;
+  line-height: 1.5;
+}
+.textc h1 {
+  font-size: 70px;
+}
+.textc p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.carimg {
+  width: 90%;
+  height: 60%;
+}/*# sourceMappingURL=carousel.css.map */

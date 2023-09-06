@@ -1,0 +1,63 @@
+.Footer {
+  display: flex;
+  padding-bottom: 5rem;
+  -moz-column-gap: 11%;
+       column-gap: 11%;
+  margin-top: 10rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0px -5px 10px rgba(181, 178, 178, 0.178);
+}
+.Footer h4 {
+  font-size: 15px;
+}
+.Footer p {
+  font-weight: lighter;
+  font-size: 15px;
+  color: rgba 133, 133, 133, 1;
+}
+.Footer .MadLogo {
+  margin-left: 10%;
+  margin-top: 4%;
+}
+.Footer .MadLogo .MadboxLogo {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+.Footer .CountryFlag {
+  display: flex;
+  -moz-column-gap: 6rem;
+       column-gap: 6rem;
+  margin-top: 2%;
+}
+.Footer .CountryFlag .Paris {
+  margin-top: 4%;
+}
+.Footer .CountryFlag .Paris .parisflag {
+  width: 30px;
+}
+.Footer .CountryFlag .Barcelona {
+  margin-top: 4%;
+}
+.Footer .CountryFlag .Barcelona .Barflag {
+  width: 30px;
+}
+.Footer .socials .Stay {
+  margin-top: 20%;
+  margin-bottom: 11%;
+}
+.Footer .socials .EmailInput .Email {
+  border-radius: 200px;
+  padding: 1rem;
+  border: 1px solid gray;
+}
+.Footer .socials .footerSocials {
+  margin-top: 3%;
+  padding-top: 1rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  justify-content: space-between;
+}
+.Footer .socials .footerSocials .icon {
+  font-size: 30px;
+}/*# sourceMappingURL=footer.css.map */

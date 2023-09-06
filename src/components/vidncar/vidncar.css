@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,300;1,900&display=swap");
+:root {
+  --blackText: hsl(0, 100%, 0%);
+  --orangeGradient: hsla(17, 95%, 50%, 1);
+  --blueGradient: hsla(152, 100%, 50%, 1);
+  --purpleGradient: hsla(280, 95%, 57%, 1);
+  --bodyColor: rgb(240, 240 , 246);
+  --bodyColor:hsl (0, 0,1);
+}
+
+.midText {
+  padding-bottom: 4rem;
+}
+
+.container {
+  margin-top: 7%;
+  margin-left: 20%;
+}
+.container .bigText {
+  font-size: 45px;
+  font-weight: bolder;
+  line-height: 1;
+  font-family: "Work Sans", sans-serif;
+  letter-spacing: -3px;
+}
+.container .sepText {
+  margin-top: 1.5%;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=vidncar.css.map */

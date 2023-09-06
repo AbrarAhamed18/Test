@@ -1,0 +1,81 @@
+:root {
+  --blackText: hsl(0, 100%, 0%);
+  --orangeGradient: hsla(17, 95%, 50%, 1);
+  --blueGradient: hsla(152, 100%, 50%, 1);
+  --purpleGradient: hsla(280, 95%, 57%, 1);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+}
+
+.navBarSection {
+  width: 100%;
+  background: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 98%;
+  height: 7rem;
+  z-index: 1000;
+  position: fixed;
+  background: white;
+  width: 98%;
+  height: 7rem;
+  zIndex: 1000;
+  marginLeft: 1rem;
+  transition: all 0.3s ease;
+  /* Initial styles without box shadow and border radius */
+}
+
+.header.hidden {
+  display: none; /* Hide the navbar when not scrolling up */
+}
+
+.navLists {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px;
+  margin-right: 8.5rem;
+}
+
+.navItems {
+  padding: 7px 18px;
+  margin-right: 10px;
+
+  &:hover {
+    scale: 1.02;
+    transition: 0.1s ease-in;
+  }
+}
+
+.navLink {
+  color: var(--blackText);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+.navLinkhire {
+  color: var(--orangeGradient) !important;
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.logo {
+  width: 32%;
+  margin-left: 33.5%;
+}
+
+/* Styles for the navbar when it reappears on scroll up */
+.header.visible {
+  transition: all 0.3s ease;
+  /* Add box shadow and border radius when the navbar reappears */
+  box-shadow: 0 2px 4px rgba(240, 2, 2, 0.717);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+
+
