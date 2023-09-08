@@ -25,7 +25,7 @@ const Gallery = () => {
               src={video1}
               className="videoFolder1"
               
-              controls={false} 
+              controls={true} 
               // onClick={togglePlay}
               autoPlay
               type="video/mp4"/>

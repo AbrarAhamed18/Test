@@ -7,38 +7,31 @@
     --bodyColor:hsl (0, 0,1);
   
   }
-.videoTalk{
-    
-        position: absolute;
-        width: 93%;
-        height: 69.2%;
-        margin-left: 3.9%;
-        // padding-right: 4rem;
-        background:  linear-gradient(45.8deg, rgb(175, 104, 254) 9.3%, rgb(101, 223, 255) 75.1%);
-        top:12%;
-        bottom: 0;
-        z-index: 1;
-        mix-blend-mode: hard-light;
-        border-radius: 20px;
-}
+
+  .videoSec{
+    width:100%;
+    // margin-top: 7%;
+    // border: 2px solid red;
+    // padding-bottom: 100rem;
+  }
+
 
 .videoFolder{
-    width: 93.7%;
-    height: 10%;
+    width: 95%;
+    // height: 90%;
     margin-top:6.7% ;
+    margin-bottom: 2%;
     opacity: 0.6;
-    // margin-left: 2%;
-    margin-right: 2%;
-    padding-left: 6px;
-    padding-right: 6px;
+    object-fit: cover;
+    
+    // margin-right: ;
+    // padding-left: 10px;
+    // padding-right: 1px;
 
-    margin-left: 3.5%;
+    margin-left: 2.4%;
     border-radius: 25px;
     transition: opacity .5s cubic-bezier(.215,.61,.355,1);
-    // background: var(--purpleGradient);
-    // background-blend-mode: hard-light;
-    // background:  linear-gradient(45.8deg, rgb(175, 104, 254) 9.3%, rgb(101, 223, 255) 75.1%);
-    mix-blend-mode: hard-light;
+    // margin-bottom: 50%;
     
 
 

@@ -14,10 +14,10 @@
 
 .container {
   margin-top: 7%;
-  margin-left: 20%;
+  margin-left: 13%;
 }
 .container .bigText {
-  font-size: 45px;
+  font-size: 55px;
   font-weight: bolder;
   line-height: 1;
   font-family: "Work Sans", sans-serif;
@@ -27,4 +27,5 @@
   margin-top: 1.5%;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
+  margin-left: -66%;
 }/*# sourceMappingURL=vidncar.css.map */
