@@ -9,7 +9,7 @@ import 'aos/dist/aos.css'
 
 const Ourvalues = () => {
     useEffect(()=>{
-         Aos.init({duration: 500})
+         Aos.init({duration: 1500})
     },[])
   return (
     <section id='section3' className='ourval'>
