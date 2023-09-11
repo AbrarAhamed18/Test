@@ -1,9 +1,14 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './powerup.css'
 import icard from '../../Assets/invertedCard.png'
 // import Gamecard from '../GameCard/Gamecard'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Powerup = () => {
+  useEffect(()=>{
+    Aos.init({duration: 2000})
+},[])
 //     const cardContents = [{
 //         front: 'Front Content',
 //         back: 'Back Content',
@@ -21,7 +26,7 @@ const Powerup = () => {
 // ];
   return (
     <section className='power'>
-    <div className="powerUp">
+    <div data-aos='zoom-in' className="powerUp">
         <div className="Htext">
         <h1 className='HPower'>Power up with </h1>
         <h1 className='Bpower'> Benefits. </h1>
@@ -31,7 +36,7 @@ const Powerup = () => {
         </div>
     </div>
     <div >
-        <img className="icard" src={icard} alt="" />
+        <img data-aos='zoom-in' data-aos-duration="500" className="icard" src={icard} alt="" />
     </div>
 
     {/* <div className="card-container">

@@ -7,7 +7,7 @@
   padding: 10px;
   background-color: #f0f0f0;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 30px rgba(240, 238, 238, 0.7);
 }
 
 .rating-score {

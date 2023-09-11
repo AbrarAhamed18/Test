@@ -1,5 +1,7 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './ratingcard.scss';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const RatingCard = ({ score, description, gradientColors }) => {
   const calculateDashArray = () => {
@@ -9,9 +11,14 @@ const RatingCard = ({ score, description, gradientColors }) => {
   const gradientStyle = {
     stroke: `url(#gradient-${score})`
   };
+  useEffect(()=>{
+    Aos.init({duration: 2000})
+},[])
+
+  
 
   return (
-    <div className="rating-card">
+    <div  className="rating-card">
       
       <div className="loading-animation">
         <svg className="circular" viewBox="0 0 64 64">
@@ -22,7 +29,7 @@ const RatingCard = ({ score, description, gradientColors }) => {
               ))}
             </linearGradient>
           </defs>
-          <circle
+          <circle 
             className="path-bg"
             cx="32"
             cy="32"

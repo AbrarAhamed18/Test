@@ -18,6 +18,7 @@
   opacity: 0.6;
   -o-object-fit: cover;
      object-fit: cover;
+  animation: drop 0.4s linear forwards 0.2s;
   margin-left: 2.4%;
   border-radius: 25px;
   transition: opacity 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);

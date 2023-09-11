@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import './gamecard.css'
 
+
 const Gamecard = ({ content }) => {
     const [hovered, setHovered] = useState(false);
     const [flipped, setFlipped] = useState(false);

@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import './carousel.css'
 import cimg from '../../Assets/carousel.png'
 // import car1 from '../../Assets/car1.mp4'
@@ -11,7 +11,13 @@ import cimg from '../../Assets/carousel.png'
 
 // import PlayIcon from '../../Assets/play.png';
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 const Carousel = () => {
+  useEffect(()=>{
+    Aos.init({duration: 500})
+},[])
 
 
   // const videoData = [
@@ -73,8 +79,8 @@ const Carousel = () => {
    <section id='section2'>
    <div className="carousel">
     <div className="textc">
-      <h1>Inside MADBOX </h1>
-      <p>What they think about working at Madbox and what their days look like</p>
+      <h1 data-aos='fade-up'>Inside MADBOX </h1>
+      <p data-aos='fade-up'>What they think about working at Madbox and what their days look like</p>
     </div>
     
 
