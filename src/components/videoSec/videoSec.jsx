@@ -1,5 +1,3 @@
-
-
 import React, { useEffect, useRef } from 'react';
 import video from '../../Assets/hero1.mp4';
 import './videoSec.css';

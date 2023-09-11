@@ -23,8 +23,9 @@ footer .footer-links button {
   border: none;
   color: black;
   font-size: 16px;
-  font-weight: normal;
   padding: 0 3rem;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
   cursor: pointer;
   transition: color 0.3s;
 }/*# sourceMappingURL=staticfooter.css.map */

@@ -46,7 +46,7 @@ const Footer = () => {
             <div className="EmailInput">
                 <input type="email" placeholder='Enter your email' className='Email'/>
             </div>
-            <div data-aos='fade-up' className="footerSocials flex">
+            <div  className="footerSocials flex">
                 <BiLogoDiscord className="icon"/>
                 <AiFillFacebook className="icon"/>
                 <AiFillInstagram className="icon"/>
