@@ -121,7 +121,7 @@ const Cards = () => {
         Array.from(new Set(Data.map(item=>item.rcountry))).map(country =>(
       
       
-    <label  country={country}>
+    <label className="checkbox-label"  country={country}>
       
       <input
         type="checkbox"
@@ -129,7 +129,7 @@ const Cards = () => {
         
         onChange={() => handleCheckboxChange(country)}/>
         
-      {country} 
+      <p>{country}</p> 
     </label>))}
   </div>
   </div>
@@ -145,7 +145,7 @@ const Cards = () => {
                 checked={selectedTitles.includes(job)}
                 
               />
-              {job}
+              <p>{job}</p>
             </label>))}
     
     

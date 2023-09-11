@@ -240,4 +240,13 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
   gap: 7px;
+}
+
+.checkbox-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkbox-label p {
+  margin-left: 10px;
 }/*# sourceMappingURL=cards.css.map */
