@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './navBar.css';
 import img from '../../Assets/logo.png';
 
+
 const NavBar = () => {
   const [showNavBar, setShowNavBar] = useState(true); // Initially show the navbar
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -57,7 +58,7 @@ const NavBar = () => {
         <div>
           <ul className="navLists">
             <li className="navItems">
-              <a href="#" className="navLink">
+              <a href= '#'  className="navLink" >
                 Our Games
               </a>
             </li>

@@ -35,7 +35,7 @@ footer .footer-links button.active::after { /* Added active class */
   content: "";
   position: absolute;
   width: 100%;
-  height: 5.5px;
+  height: 4px;
   background-image: linear-gradient(to right, #ff3891, #ffbf04);
   bottom: -168%;
   left: 0;
@@ -47,7 +47,7 @@ footer .footer-links button.active1::after {
   content: "";
   position: absolute;
   width: 100%;
-  height: 5.5px;
+  height: 4px;
   background-image: linear-gradient(to right, #ad00ff, #38b7ff);
   bottom: -168%;
   left: 0;
@@ -59,7 +59,7 @@ footer .footer-links button.active2::after {
   content: "";
   position: absolute;
   width: 100%;
-  height: 5.5px;
+  height: 4px;
   background-image: linear-gradient(to right, #00e5ff, #78f2c9);
   bottom: -168%;
   left: 8%;
